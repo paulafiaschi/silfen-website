@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: #ff5c01;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 10rem;
+}
+
+#logo {
+  width: 3rem;
+  margin-left: 3rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #ff5c01;
+}
+li a:hover {
+  text-decoration: none;
+  color: #edff00;
+}
