@@ -1,0 +1,10 @@
+.mainlist {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+article {
+  padding: 20px;
+}
