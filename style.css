@@ -137,3 +137,49 @@ h3 {
   justify-content: space-evenly;
   margin-top: 1rem;
 }
+.collection {
+  display: flex;
+  column-gap: 3rem;
+}
+
+img {
+  max-width: 500px;
+}
+
+.bag-collection img {
+  width: 300px;
+  margin: 3rem;
+}
+
+.bag-collection {
+  display: flex;
+  align-content: center;
+}
+
+.arrow {
+  align-self: center;
+  background-color: #ff5c01;
+  color: white;
+}
+.collection-pic {
+  background-image: url(/img/grease.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+h4 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: end;
+  color: #edff00;
+}
+
+.shop-button {
+  color: black;
+  border: solid 1px black;
+  height: fit-content;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
