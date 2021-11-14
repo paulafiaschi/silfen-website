@@ -48,7 +48,7 @@ li a:hover {
   width: max-content;
 }
 
-section {
+.hero {
   background-image: url(/img/ocean.jpg);
   background-size: cover;
   height: 50vw;
@@ -99,4 +99,41 @@ h3 {
 .icons div {
   font-size: 1.25rem;
   text-align: center;
+}
+
+#best-sellers {
+  background-color: #85b4d7;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 2.5rem;
+  padding: 0 2rem 2rem;
+}
+
+.bag-card {
+  border: solid 3px #edff00;
+  padding: 1rem;
+  width: fit-content;
+}
+
+#best-sellers h2 {
+  color: #edff00;
+  grid-column: 1/-1;
+}
+
+.bag-card img {
+  max-width: 100%;
+}
+
+.ctas a {
+  color: black;
+  background-color: #edff00;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.ctas {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
