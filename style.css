@@ -1,5 +1,13 @@
-.cover-prodct-img {
-  background-image: ;
+.cover {
+  display: flex;
+  height: 35vw;
+}
+.product-img {
+  background-image: url(/productimg/cover.jpg);
+  background-size: cover;
+  background-position-y: -25vw;
+  width: 100%;
+  display: flex;
 }
 .mainlist {
   display: flex;
@@ -35,8 +43,6 @@
   width: 300px;
   height: max-content;
   padding: 15px;
-  margin-top: 50px;
-  margin-bottom: 30px;
 }
 .img-display {
   width: 100%;
