@@ -36,7 +36,17 @@ fetch(
 function productList(data) {
   console.log(data);
   data.forEach(showBags);
+  //data.forEach(showspecificbag);
 }
+/*function showspecificbag(plz) {
+  const templateCate = document.querySelector(".catetemp").content;
+  const copy1 = templateCate.cloneNode(true);
+  copy1.querySelector(
+    "a.cate-link"
+  ).href = `productp.html?bagname=${plz.title.parent}`;
+  const parent1 = document.querySelector(".menu-op");
+  parent1.appendChild(copy1);
+}*/
 
 function showBags(bags) {
   //console.log(bags);
@@ -49,6 +59,7 @@ function showBags(bags) {
     bags._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
   copy.querySelector(".bag-name").textContent = `${bags.title.rendered}`;
   copy.querySelector(".bag-price").textContent = `${bags.bed}` + " DDK";
+
   //grab parent
   const parent = document.querySelector(".product-list");
   //append
