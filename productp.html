@@ -5,29 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Silfen</title>
+    <meta name="Robots" content="noindex, nofollow" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <div class="cover-product-img"></div>
+    <nav>
+      <img src="/img/SilfenLogo.png" alt="Silfen Logo" id="logo" />
+      <ul>
+        <li><a href="">SHOP</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">SUSTAINABILITY</a></li>
+      </ul>
+    </nav>
     <div class="mainlist">
-      <template id="catetemp">
-        <ul>
-          <li></li>
-        </ul>
-        <section class="colla"></section>
-      </template>
+      <ul class="menu-op">
+        <template class="catetemp">
+          <li class="cate-menu"><a href="#" class="cate-link"></a></li>
+        </template>
+      </ul>
+      <section class="colla"></section>
     </div>
     <main>
-      <template id="housetemp">
-        <article class="house">
-          <img class="img" src="#" alt="f" />
-          <section class="info">
-            <div class="name">er</div>
-            <div class="price">er</div>
-          </section>
-        </article>
-      </template>
+      <div class="product-list">
+        <template id="bagtemp">
+          <article class="bag-display">
+            <section class="img-button">
+              <img class="img-display" src="#" alt="f" />
+              <a href="#" class="button">See Product</a>
+              <div class="bag-name">er</div>
+              <div class="bag-price">er</div>
+              <!--<div class="colour_choices">
+                //<div class="product_color red"></div>//
+                <p class="not_aplicable">N/A</p>-->
+            </section>
+          </article>
+        </template>
+      </div>
     </main>
   </body>
-  <script src="script.js"></script>
+  <script src="product.js"></script>
 </html>
