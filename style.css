@@ -138,7 +138,7 @@ h3 {
 /*.img-display:hover {
   width: 110%;
 }*/
-.button {
+.button1 {
   text-decoration: none;
   color: #000;
   background-color: rgb(204, 201, 201);
@@ -149,6 +149,6 @@ h3 {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-.button:hover {
+.button1:hover {
   background-color: lightgray;
 }
