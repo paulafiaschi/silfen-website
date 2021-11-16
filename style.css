@@ -85,3 +85,70 @@ h3 {
   font-size: 1.75rem;
   margin: 8rem 0;
 }
+.cover {
+  display: flex;
+  height: 35vw;
+}
+.product-img {
+  background-image: url(/productimg/cover.jpg);
+  background-size: cover;
+  background-position-y: -25vw;
+  width: 100%;
+  display: flex;
+}
+.mainlist {
+  display: flex;
+}
+.cate-menu {
+  font-family: "Manrope", sans-serif;
+  list-style-type: none;
+  display: inline-block;
+}
+.cate-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+.product-list {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+.bag-display {
+  width: 300px;
+  height: max-content;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.img-button {
+  display: grid;
+  width: 300px;
+  height: max-content;
+  padding: 15px;
+}
+.img-display {
+  width: 100%;
+  object-fit: cover;
+}
+/*.img-display:hover {
+  width: 110%;
+}*/
+.button {
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(204, 201, 201);
+  font-size: 15px;
+  border: solid black 0.5px;
+  padding: 5px;
+  justify-self: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.button:hover {
+  background-color: lightgray;
+}
