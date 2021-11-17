@@ -95,7 +95,15 @@ h3 {
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
-  display: flex;
+}
+.cover-text-product-page {
+  display: grid;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 750;
+  margin-top: 13vw;
 }
 .mainlist {
   display: flex;
@@ -131,7 +139,11 @@ h3 {
   padding: 15px;
   margin-top: 50px;
   margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .img-button {
   display: grid;
   width: 300px;
@@ -352,7 +364,7 @@ h5 {
   transition: all 0.3s ease;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 950px) {
   .desk-menu {
     display: none;
   }
@@ -485,6 +497,7 @@ h5 {
   .menu-op {
     padding-left: 0;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .cate-link {
     padding: 0.5rem 2rem;
