@@ -1,3 +1,8 @@
+const urlParams = new URLSearchParams(window.location.search);
+const brandname = urlParams.get("bagname");
+//console.log(brandname);
+//document.querySelector("body>div").textContent = bagname;
+
 fetch("http://tolloman.com/re-create/wp-json/wp/v2/categories?_fields=name")
   .then(function (res) {
     return res.json();
@@ -59,7 +64,7 @@ function showBags(bags) {
     bags._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
   copy.querySelector(".bag-name").textContent = `${bags.title.rendered}`;
   copy.querySelector(".bag-price").textContent = `${bags.bed}` + " DDK";
-
+  copy.querySelector("a").setAttribute("href", "productl.html?id=" + bags.id);
   //grab parent
   const parent = document.querySelector(".product-list");
   //append

@@ -316,3 +316,13 @@ h5 {
 .social-icons img {
   max-width: 60px;
 }
+.product-page {
+  font-family: "Manrope", sans-serif;
+  color: #ff5c01;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
