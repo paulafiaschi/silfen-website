@@ -95,7 +95,15 @@ h3 {
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
-  display: flex;
+}
+.cover-text-product-page {
+  display: grid;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 750;
+  margin-top: 13vw;
 }
 .mainlist {
   display: flex;
