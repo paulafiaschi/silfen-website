@@ -16,13 +16,24 @@
 <body>
   <header>
     <nav>
-      <img src="/img/SilfenLogo.png" alt="Silfen Logo" id="logo" />
+      <a href="index.html"><img src="/img/SilfenLogo.png" alt="Silfen Logo" id="logo" /></a>
       <ul class="nav-bar">
-        <li><a href="">SHOP</a></li>
-        <li><a href="">ABOUT US</a></li>
-        <li><a href="">SUSTAINABILITY</a></li>
+        <li><a href="productp.html">SHOP</a></li>
+        <li><a href="us.html">ABOUT US</a></li>
+        <li><a href="sustainability.html">SUSTAINABILITY</a></li>
       </ul>
+
     </nav>
+    <div class="burger-icon"></div>
+
+    <ul class="mob-menu">
+      <li class="cross-icon"></li>
+      <li><a href="productp.html">SHOP</a></li>
+      <li><a href="us.html">ABOUT US</a></li>
+      <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+    </ul>
+
+
   </header>
 
   <main>
@@ -79,8 +90,11 @@
         </div>
       </div>
     </section>
+
+
     <section>
       <h2>newest collections</h2>
+
       <div class="collection">
         <div class="collection-pic1">
           <h4>GREASE</h4>
@@ -96,8 +110,9 @@
           <a href="" class="shop-button">SHOP COLLECTION</a>
         </div>
       </div>
+
       <div class="collection">
-        <div class="bag-collection">
+        <div class="bag-collection mob-hidden">
           <div class="material-icons arrow">
             chevron_left
           </div>
@@ -110,7 +125,19 @@
         <div class="collection-pic2">
           <h4>RACE</h4>
         </div>
+        <div class="bag-collection">
+          <div class="material-icons arrow">
+            chevron_left
+          </div>
+          <img src="/img/bag-example.JPG" alt="bag image">
+          <div class="material-icons arrow">
+            chevron_right
+          </div>
+          <a href="" class="shop-button">SHOP COLLECTION</a>
+        </div>
       </div>
+
+
     </section>
   </main>
 
@@ -134,6 +161,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

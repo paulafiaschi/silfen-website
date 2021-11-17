@@ -14,20 +14,35 @@
       rel="stylesheet"
     />
   </head>
-  <nav>
-    <img src="/img/SilfenLogo.png" alt="Silfen Logo" id="logo" />
-    <ul class="nav-bar">
-      <li><a href="">SHOP</a></li>
-      <li><a href="">ABOUT US</a></li>
-      <li><a href="">SUSTAINABILITY</a></li>
-    </ul>
-  </nav>
+
   <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img src="/img/SilfenLogo.png" alt="Silfen Logo" id="logo"
+        /></a>
+        <ul class="nav-bar">
+          <li><a href="productp.html">SHOP</a></li>
+          <li><a href="us.html">ABOUT US</a></li>
+          <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+        </ul>
+      </nav>
+      <div class="burger-icon"></div>
+
+      <ul class="mob-menu">
+        <li class="cross-icon"></li>
+        <li><a href="productp.html">SHOP</a></li>
+        <li><a href="us.html">ABOUT US</a></li>
+        <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+      </ul>
+    </header>
+
     <div class="cover">
       <section class="product-img">
         <h1 class="cover-text-product-page">ALL PRODUCTS</h1>
       </section>
     </div>
+
     <div class="mainlist">
       <ul class="menu-op">
         <template class="catetemp">
@@ -55,6 +70,31 @@
         </template>
       </div>
     </main>
+
+    <footer>
+      <div>
+        <h5>join silfen's universe, subscribe here</h5>
+        <form class="sign-up" action="">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" value="email adress" />
+          <input type="submit" id="sign-button" value="Sign Up" />
+        </form>
+      </div>
+
+      <div class="social-media">
+        <h5>follow us on social media</h5>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/silfenstudio/" target="_blank"
+            ><img src="/img/insta.png" alt="instagram icon"
+          /></a>
+          <a href="https://www.facebook.com/Silfenstudio" target="_blank"
+            ><img src="/img/fb.png" alt="facebook icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="product.js"></script>
   </body>
-  <script src="product.js"></script>
 </html>
