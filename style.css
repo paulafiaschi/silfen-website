@@ -230,7 +230,7 @@ img {
 
 .bag-collection {
   display: grid;
-  grid-template-columns: 0.5fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   column-gap: 0.5rem;
 }
 
@@ -279,6 +279,10 @@ footer {
   background-color: #edff00;
   padding: 3rem;
   justify-content: space-evenly;
+}
+
+form {
+  text-align: center;
 }
 
 input {
@@ -332,7 +336,6 @@ h5 {
 }
 .cross-icon {
   background-image: url(/img/cross.svg);
-
   width: 4vw;
   height: 4vw;
   background-repeat: no-repeat;
@@ -375,10 +378,10 @@ h5 {
     padding-bottom: 6vw;
   }
 
-  .mob-menu a{
+  .mob-menu a {
     color: white;
   }
-  .mob-menu li{
+  .mob-menu li {
     margin: 1rem 0;
   }
 
@@ -412,3 +415,62 @@ h5 {
     color: white;
   }
 
+  .main-section {
+    height: 100%;
+  }
+
+  #hero-image {
+    align-content: center;
+    margin: 0;
+    padding: 6rem;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4rem;
+  }
+
+  .icons img {
+    max-width: 5rem;
+  }
+
+  .bag-card {
+    margin: 1rem 0;
+  }
+
+  .collection {
+    display: block;
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+  .collection-pic1,
+  .collection-pic2 {
+    height: 20rem;
+  }
+
+  .arrow {
+    visibility: hidden;
+  }
+
+  .bag-collection img {
+    display: none;
+  }
+
+  .mob-hidden {
+    display: none;
+  }
+
+  footer {
+    display: block;
+    padding: 1rem;
+  }
+
+  .social-media {
+    margin-top: 5rem;
+  }
+
+  h3 {
+    margin: 4rem 0;
+  }
+}
