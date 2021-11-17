@@ -152,3 +152,101 @@ h3 {
 .button1:hover {
   background-color: lightgray;
 }
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+
+.icons img {
+  max-width: 10rem;
+}
+
+.icons div {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+#best-sellers {
+  background-color: #85b4d7;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 2.5rem;
+  padding: 0 2rem 2rem;
+}
+
+.bag-card {
+  border: solid 3px #edff00;
+  padding: 1rem;
+  width: fit-content;
+}
+
+#best-sellers h2 {
+  color: #edff00;
+  grid-column: 1/-1;
+}
+
+.bag-card img {
+  max-width: 100%;
+}
+
+.ctas a {
+  color: black;
+  background-color: #edff00;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.ctas {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.collection {
+  display: flex;
+  column-gap: 3rem;
+}
+
+img {
+  max-width: 500px;
+}
+
+.bag-collection img {
+  width: 300px;
+  margin: 3rem;
+}
+
+.bag-collection {
+  display: flex;
+  align-content: center;
+}
+
+.arrow {
+  align-self: center;
+  background-color: #ff5c01;
+  color: white;
+}
+.collection-pic {
+  background-image: url(/img/grease.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+h4 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: end;
+  color: #edff00;
+}
+
+.shop-button {
+  color: black;
+  border: solid 1px black;
+  height: fit-content;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
