@@ -96,6 +96,12 @@ h3 {
   background-position-y: -25vw;
   width: 100%;
 }
+.sust-img {
+  background-image: url(/img/ocean.jpg);
+  background-size: cover;
+  background-position-y: -25vw;
+  width: 100%;
+}
 .cover-text-product-page {
   display: grid;
   text-align: center;
@@ -180,7 +186,7 @@ h3 {
 }
 
 .icons img {
-  max-width: 10rem;
+  max-width: 6rem;
 }
 
 .icons div {
@@ -364,6 +370,53 @@ h5 {
   transition: all 0.3s ease;
 }
 
+.sust-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  padding: 0 20%;
+  margin-bottom: 6rem;
+}
+
+.sust-main img {
+  max-width: 300px;
+}
+
+.values {
+  background-color: #85b4d7;
+  margin-top: 2rem;
+  width: 100%;
+  color: white;
+  padding: 2rem;
+}
+
+.values h2 {
+  color: #edff00;
+  text-align: center;
+  grid-column: 1/5;
+}
+
+.values h4 {
+  color: white;
+}
+
+.values img {
+  align-self: center;
+  padding-right: 3rem;
+}
+
+.values article {
+  display: flex;
+  border-left: solid 1rem #edff00;
+  border-right: solid 1rem #edff00;
+  border-bottom: solid 1rem #edff00;
+  margin-bottom: 5rem;
+  padding: 0 3rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 950px) {
   .desk-menu {
     display: none;
@@ -505,5 +558,22 @@ h5 {
 
   .img-button {
     width: 100%;
+  }
+
+  .values article {
+    width: 100%;
+  }
+
+  .sust-main {
+    display: block;
+    padding: 0 20%;
+    margin-bottom: 6rem;
+  }
+
+  .sust-main img {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
