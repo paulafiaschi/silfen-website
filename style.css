@@ -146,9 +146,10 @@ h3 {
   width: 110%;
 }*/
 .button1 {
+  background-color: #ff5c01;
   text-decoration: none;
-  color: #000;
-  background-color: rgb(204, 201, 201);
+  font-weight: bold;
+  color: white;
   font-size: 15px;
   border: solid black 0.5px;
   padding: 5px;
@@ -157,7 +158,7 @@ h3 {
   margin-bottom: 15px;
 }
 .button1:hover {
-  background-color: lightgray;
+  background-color: #ff5a01c9;
 }
 
 .icons {
