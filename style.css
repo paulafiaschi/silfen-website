@@ -280,8 +280,6 @@ footer {
   padding: 3rem;
   justify-content: space-evenly;
 }
-form {
-}
 
 input {
   border: none;
@@ -325,8 +323,8 @@ h5 {
 
 .burger-icon {
   background-image: url(/img/burger.svg);
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: 3vw;
   background-repeat: no-repeat;
   margin-left: 1vw;
   margin-top: 2vw;
@@ -334,6 +332,7 @@ h5 {
 }
 .cross-icon {
   background-image: url(/img/cross.svg);
+
   width: 4vw;
   height: 4vw;
   background-repeat: no-repeat;
@@ -343,11 +342,11 @@ h5 {
 
 .show {
   transform: translateX(57vw);
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
 }
 .close {
   transform: translateX(-50vw);
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -364,14 +363,23 @@ h5 {
     left: -57vw;
     top: 0;
     z-index: 5;
-    background-color: #f7e59e;
+    background-color: #ff5c01;
+    color: white;
     padding-top: 3vw;
     position: absolute;
-    width: 50vw;
+    width: 50%;
+    height: 100%;
     margin-left: -1vw;
     margin-top: -1vw;
-    font-size: 2em;
+    font-size: 1.1rem;
     padding-bottom: 6vw;
+  }
+
+  .mob-menu a{
+    color: white;
+  }
+  .mob-menu li{
+    margin: 1rem 0;
   }
 
   .mob-menu:first-child {
@@ -398,5 +406,9 @@ h5 {
   .burger-icon {
     background-color: #f7e59e00;
     border-radius: 0;
+  }
+
+  h1 {
+    color: white;
   }
 
