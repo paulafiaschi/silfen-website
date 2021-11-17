@@ -102,6 +102,7 @@ h3 {
 }
 .cate-menu {
   font-family: "Manrope", sans-serif;
+  font-weight: bold;
   list-style-type: none;
   display: inline-block;
 }
@@ -109,9 +110,14 @@ h3 {
   text-decoration: none;
   display: inline-block;
   padding: 20px;
+  color: #ff5c01;
+}
+.cate-link:hover {
+  color: #edff00;
 }
 .product-list {
   font-family: "Manrope", sans-serif;
+  color: #ff5c01;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
