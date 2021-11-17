@@ -48,7 +48,7 @@ li a:hover {
   width: max-content;
 }
 
-section {
+.main-section {
   background-image: url(/img/ocean.jpg);
   background-size: cover;
   height: 50vw;
