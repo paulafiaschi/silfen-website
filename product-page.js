@@ -18,7 +18,7 @@ function showBags(bags) {
   copy.querySelector(".bag-price-page").textContent = `${bags.bed}` + " DDK";
   copy.querySelector(".descripition").textContent = `${bags.description}`;
   //grab parent
-  const parent = document.querySelector(".product-page");
+  const parent = document.querySelector(".product-page2");
   console.log(parent);
   //append
   parent.appendChild(copy);

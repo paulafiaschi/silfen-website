@@ -49,8 +49,9 @@ li a:hover {
 }
 
 .main-section {
-  background-image: url(/img/ocean.jpg);
+  background-image: url(/img/IMG_7831.jpeg);
   background-size: cover;
+  background-position: center;
   height: 50vw;
   display: flex;
   align-items: center;
@@ -68,6 +69,7 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 1rem;
+  color: white;
 }
 
 h2 {
@@ -140,7 +142,7 @@ h3 {
   align-items: center;
 }
 .bag-display {
-  width: 300px;
+  width: 100%;
   height: max-content;
   padding: 15px;
   margin-top: 50px;
@@ -156,6 +158,40 @@ h3 {
   height: max-content;
   padding: 15px;
 }
+
+.img-button2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  padding: 0 3rem;
+}
+
+.img-button2 div {
+  align-self: center;
+}
+
+.bag-name-page {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.bag-price-page {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.button3 {
+  background-color: #edff00;
+  padding: 0.5rem 4rem;
+  color: #000;
+}
+
+.product-main {
+  background-color: #7bafd47a;
+}
+
 .img-display {
   width: 100%;
   object-fit: cover;
@@ -338,7 +374,8 @@ h5 {
   /* flex-wrap: wrap; */
   align-items: center;
 }
-/* mobile */
+
+/* mobile menu */
 
 .mob-menu {
   flex-direction: column;
