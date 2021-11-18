@@ -152,6 +152,17 @@ h3 {
   margin-right: auto;
 }
 
+.iconslsit {
+  display: flex;
+}
+.iconslist p {
+  margin-top: 0;
+}
+
+.product-icon-img {
+  max-width: 30px;
+  margin: 0.5mm;
+}
 .img-button {
   display: grid;
   width: 300px;
