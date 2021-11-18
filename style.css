@@ -66,6 +66,7 @@ li a:hover {
 }
 
 h1 {
+  font-family: Gravesend Sans;
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 1rem;
@@ -73,6 +74,7 @@ h1 {
 }
 
 h2 {
+  font-family: Gravesend Sans;
   color: #ff5c01;
   text-transform: uppercase;
   padding-left: 3rem;
@@ -152,6 +154,17 @@ h3 {
   margin-right: auto;
 }
 
+.iconslsit {
+  display: flex;
+}
+.iconslist p {
+  margin-top: 0;
+}
+
+.product-icon-img {
+  max-width: 30px;
+  margin: 0.5mm;
+}
 .img-button {
   display: grid;
   width: 300px;
@@ -201,6 +214,9 @@ h3 {
   padding: 0.5rem 4rem;
   color: #000;
 }
+.button3:hover {
+  background-color: #eeff00e3;
+}
 
 .product-main {
   background-color: #7bafd47a;
@@ -226,7 +242,9 @@ h3 {
 .others img {
   width: 100%;
 }
-
+.opacity img:hover {
+  opacity: 70%;
+}
 .social-icons div {
   text-align: center;
 }
@@ -569,10 +587,6 @@ h5 {
   .burger-icon {
     background-color: #f7e59e00;
     border-radius: 0;
-  }
-
-  h1 {
-    color: white;
   }
 
   .main-section {
