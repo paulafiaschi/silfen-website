@@ -99,7 +99,7 @@ h3 {
   width: 100%;
 }
 .sust-img {
-  background-image: url(/img/ocean.jpg);
+  background-image: url(img/ocean.jpg);
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
@@ -328,13 +328,13 @@ img {
 }
 
 .collection-pic1 {
-  background-image: url(/img/grease.jpg);
+  background-image: url(img/grease.jpg);
   background-size: cover;
   background-position: center;
   min-width: 400px;
 }
 .collection-pic2 {
-  background-image: url(/img/race.jpg);
+  background-image: url(img/race.jpg);
   background-size: cover;
   background-position: center;
   min-width: 400px;
@@ -435,7 +435,7 @@ h5 {
 }
 
 .burger-icon {
-  background-image: url(/img/burger.svg);
+  background-image: url(img/burger.svg);
   width: 3vw;
   height: 3vw;
   background-repeat: no-repeat;
@@ -444,7 +444,7 @@ h5 {
   display: none;
 }
 .cross-icon {
-  background-image: url(/img/cross.svg);
+  background-image: url(img/cross.svg);
   width: 4vw;
   height: 4vw;
   background-repeat: no-repeat;
