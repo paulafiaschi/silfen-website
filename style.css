@@ -163,11 +163,25 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
+  row-gap: 1rem;
   padding: 0 3rem;
 }
 
 .img-button2 div {
   align-self: center;
+}
+
+.prodpage-main h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+.prodpage-main h3 {
+  color: #edff00;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
 }
 
 .bag-name-page {
@@ -190,6 +204,18 @@ h3 {
 
 .product-main {
   background-color: #7bafd47a;
+}
+
+.others {
+  margin-top: 1rem;
+  border-top: solid 3px white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: space-between;
+}
+
+.social-icons div {
+  text-align: center;
 }
 
 .img-display {
@@ -333,6 +359,7 @@ footer {
   background-color: #edff00;
   padding: 3rem;
   justify-content: space-evenly;
+  row-gap: 0rem;
 }
 
 form {
@@ -361,8 +388,13 @@ h5 {
   justify-content: center;
 }
 
+.social-icons p {
+  margin-top: 0;
+}
+
 .social-icons img {
   max-width: 60px;
+  margin: 0 2rem;
 }
 .product-page {
   font-family: "Manrope", sans-serif;
