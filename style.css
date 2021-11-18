@@ -93,7 +93,7 @@ h3 {
   height: 35vw;
 }
 .product-img {
-  background-image: url(/productimg/cover.jpg);
+  background-image: url(productimg/cover.jpg);
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
