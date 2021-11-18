@@ -312,6 +312,10 @@ h3 {
   margin: 2rem 5rem 5rem 5rem;
 }
 
+.desk-hidden {
+  visibility: hidden;
+}
+
 img {
   max-width: 500px;
 }
@@ -615,6 +619,10 @@ h5 {
 
   .mob-hidden {
     display: none;
+  }
+
+  .desk-hidden {
+    visibility: visible;
   }
 
   footer {
