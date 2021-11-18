@@ -207,11 +207,24 @@ h3 {
 }
 
 .others {
-  margin-top: 1rem;
+  margin: 3rem 0;
   border-top: solid 3px white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: space-between;
+}
+
+.others p {
+  grid-column: 1/-1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.others img {
+  width: 100%;
 }
 
 .social-icons div {
@@ -653,5 +666,23 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .img-button2 {
+    display: block;
+  }
+
+  .button3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .bag-price-page {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
   }
 }
