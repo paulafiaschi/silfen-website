@@ -49,7 +49,7 @@ li a:hover {
 }
 
 .main-section {
-  background-image: url(/img/IMG_7831.jpeg);
+  background-image: url(img/IMG_7831.jpeg);
   background-size: cover;
   background-position: center;
   height: 50vw;
@@ -93,13 +93,13 @@ h3 {
   height: 35vw;
 }
 .product-img {
-  background-image: url(/productimg/cover.jpg);
+  background-image: url(productimg/cover.jpg);
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
 }
 .sust-img {
-  background-image: url(/img/ocean.jpg);
+  background-image: url(img/ocean.jpg);
   background-size: cover;
   background-position-y: -25vw;
   width: 100%;
@@ -323,6 +323,10 @@ h3 {
   margin: 2rem 5rem 5rem 5rem;
 }
 
+.desk-hidden {
+  visibility: hidden;
+}
+
 img {
   max-width: 500px;
 }
@@ -339,13 +343,13 @@ img {
 }
 
 .collection-pic1 {
-  background-image: url(/img/grease.jpg);
+  background-image: url(img/grease.jpg);
   background-size: cover;
   background-position: center;
   min-width: 400px;
 }
 .collection-pic2 {
-  background-image: url(/img/race.jpg);
+  background-image: url(img/race.jpg);
   background-size: cover;
   background-position: center;
   min-width: 400px;
@@ -446,7 +450,7 @@ h5 {
 }
 
 .burger-icon {
-  background-image: url(/img/burger.svg);
+  background-image: url(img/burger.svg);
   width: 3vw;
   height: 3vw;
   background-repeat: no-repeat;
@@ -455,7 +459,7 @@ h5 {
   display: none;
 }
 .cross-icon {
-  background-image: url(/img/cross.svg);
+  background-image: url(img/cross.svg);
   width: 4vw;
   height: 4vw;
   background-repeat: no-repeat;
@@ -626,6 +630,10 @@ h5 {
 
   .mob-hidden {
     display: none;
+  }
+
+  .desk-hidden {
+    visibility: visible;
   }
 
   footer {
