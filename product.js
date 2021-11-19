@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const brandname = urlParams.get("bagname");
+const brandname = urlParams.get("name");
 //console.log(brandname);
 //document.querySelector("body>div").textContent = bagname;
 
@@ -21,7 +21,10 @@ function showCate(bag) {
   const template = document.querySelector(".catetemp").content;
   const copy = template.cloneNode(true);
   copy.querySelector("a.cate-link").textContent = bag.name;
-  copy.querySelector("a.cate-link").href = `productp.html?bagname=${bag.name}`;
+  //copy.querySelector("a.cate-link").href = `productp.html?_fields=${bag.name}`;
+  copy
+    .querySelector("a.cate-link")
+    .setAttribute("href", "productp.html?_fields=" + bag.name);
   const parent = document.querySelector(".menu-op");
   parent.appendChild(copy);
   //console.log(parent);
@@ -70,6 +73,7 @@ function showBags(bags) {
   //append
   parent.appendChild(copy);
 }
+window.addEventListener("load", startmain);
 
 /*function getHouses() {
   fetch("http://tolloman.com/re-create/wp-json/wp/v2/house?_embed")
@@ -80,7 +84,7 @@ function showBags(bags) {
 function setupHouses(houseArry) {
   //console.log(houseArry);
   const template = document.querySelector("template#housetemp").content;
-  const parentElement = document.querySelector("main");
+  const parentElement = document.querySelector("main");1
   houseArry.forEach((house) => {
     const copy = template.cloneNode(true);
     //copy.querySelector("h2").textContent = `${house.title.rendered}`;
