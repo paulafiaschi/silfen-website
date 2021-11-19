@@ -529,7 +529,7 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 590px) {
   img {
     max-width: 300px;
   }
