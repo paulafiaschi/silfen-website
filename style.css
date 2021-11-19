@@ -331,7 +331,7 @@ h3 {
 }
 
 .desk-hidden {
-  visibility: hidden;
+  display: none !important;
 }
 
 img {
@@ -640,7 +640,9 @@ h5 {
   }
 
   .desk-hidden {
-    visibility: visible;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 0.5rem;
   }
 
   footer {
